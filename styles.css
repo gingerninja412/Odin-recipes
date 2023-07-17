@@ -8,3 +8,27 @@
     border-bottom: 1px solid black;
     width: 180px;
 }
+
+.selection{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection  li{
+    float: left;
+}
+
+.middle{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.selection li p{
+    position: relative;
+    left: 33%;
+    top: 10%;
+    font-size: 1.3em;
+    
+}
