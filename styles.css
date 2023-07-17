@@ -1,0 +1,10 @@
+.home{
+    width: 100vw;
+}
+
+.heading{
+    position: relative;
+    left: 46%;
+    border-bottom: 1px solid black;
+    width: 180px;
+}
