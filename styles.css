@@ -30,3 +30,27 @@
     left: 33%;
     font-size: 1.3em;
 }
+
+.recipe{
+    width: 100vw;
+}
+
+.header-image{
+    position: relative;
+    left: 40%;
+}
+
+.instructions{
+    width: 300px;
+    margin-left: 60px;
+}
+
+.recipe-body{
+    display: flex;
+    justify-content: center;
+}
+.recipe a{
+    position: relative;
+    left: 35%;
+    top: -300px;
+}
