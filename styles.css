@@ -49,8 +49,17 @@
     display: flex;
     justify-content: center;
 }
+
 .recipe a{
     position: relative;
     left: 35%;
     top: -300px;
+}
+
+.selection img{
+ border: 4px red solid;
+}
+
+.selection img:hover{
+    border: 4px green solid;
 }
