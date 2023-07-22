@@ -33,17 +33,29 @@
 
 .recipe{
     width: 100vw;
-    background-color: #0a8a41;
+    background-color: #101820;
 }
 
 .header-image{
     position: relative;
     left: 40%;
+    border-radius: 10px;
 }
 
 .instructions{
     width: 300px;
     margin-left: 60px;
+    background-color: #fee715;
+}
+
+.ingredients{
+    background-color: #fee715;
+}
+
+.ingredients, .instructions{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
 }
 
 .recipe-body{
@@ -53,8 +65,14 @@
 
 .recipe a{
     position: relative;
-    left: 35%;
-    top: -300px;
+    left: 25px;
+}
+
+.recipe a button{
+    width: 100px;
+    border: none;
+    background-color: #fee715;
+    border-radius: 20px;
 }
 
 .selection img{
